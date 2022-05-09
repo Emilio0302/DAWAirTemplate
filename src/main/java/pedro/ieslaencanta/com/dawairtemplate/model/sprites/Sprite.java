@@ -20,7 +20,7 @@ public abstract class Sprite implements IDrawable {
     private Coordenada posicion;
     private Size size;
     private boolean visible;
-    private boolean live;
+    protected boolean live;
 
     public Sprite() {
         this.posicion = null;
